@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olly Autos | Premium Cars for Sale</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container navbar">
+            <div class="logo">OLLY <span>AUTOS</span></div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="https://wa.me/2349014498663" class="header-button" target="_blank">
+                WhatsApp Us
+            </a>
+        </div>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Drive Your <span>Dream Car</span> With Olly Autos</h1>
+
+                <p>
+                    Discover premium, luxury and affordable cars.
+                    At Olly Autos, we help you find the perfect vehicle
+                    for your lifestyle and budget.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#cars" class="btn btn-primary">View Our Cars</a>
+
+                    <a href="https://wa.me/2349014498663"
+                       class="btn btn-light"
+                       target="_blank">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SEARCH SECTION -->
+    <div class="container search-container">
+        <div class="search-box">
+
+            <h2>Find Your Dream Car</h2>
+
+            <div class="search-form">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search for a car..."
+                >
+
+                <select>
+                    <option>All Brands</option>
+                    <option>Toyota</option>
+                    <option>Mercedes</option>
+                    <option>BMW</option>
+                    <option>Lexus</option>
+                </select>
+
+                <select>
+                    <option>All Prices</option>
+                    <option>Under ₦20 Million</option>
+                    <option>₦20M - ₦50M</option>
+                    <option>Above ₦50 Million</option>
+                </select>
+
+                <button onclick="searchCars()">Search</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- FEATURED CARS -->
+    <section id="cars">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Featured Cars</h2>
+                <p>Explore our collection of beautiful and quality vehicles.</p>
+            </div>
+
+
+            <div class="cars-grid">
+
+
+                <!-- CAR 1 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80" alt="Mercedes">
+                    </div>
+
+                    <div class="car-info">
+                        <h3>Mercedes Benz C-Class</h3>
+                        <div class="price">₦45,000,000</div>
+
+                        <div class="car-details">
+                            <span>📅 2022</span>
+                            <span>⚙ Automatic</span>
+                            <span>⛽ Petrol</span>
+                        </div>
+
+                        <a href="https://wa.me/2349014498663"
+                           class="car-button"
+                           target="_blank">
+                           Ask About This Car
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- CAR 2 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80" alt="BMW">
+                    </div>
+
+                    <div class="car-info">
+                        <h3>BMW 5 Series</h3>
+                        <div class="price">₦38,000,000</div>
+
+                        <div class="car-details">
+                            <span>📅 2021</span>
+                            <span>⚙ Automatic</span>
+                            <span>⛽ Petrol</span>
+                        </div>
+
+                        <a href="https://wa.me/2349014498663"
+                           class="car-button"
+                           target="_blank">
+                           Ask About This Car
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- CAR 3 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1542282088-fe8426682b8f?auto=format&fit=crop&w=800&q=80" alt="Toyota">
+                    </div>
+
+                    <div class="car-info">
+                        <h3>Toyota Camry</h3>
+                        <div class="price">₦25,000,000</div>
+
+                        <div class="car-details">
+                            <span>📅 2020</span>
+                            <span>⚙ Automatic</span>
+                            <span>⛽ Petrol</span>
+                        </div>
+
+                        <a href="https://wa.me/2349014498663"
+                           class="car-button"
+                           target="_blank">
+                           Ask About This Car
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- CAR 4 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80" alt="Lexus">
+                    </div>
+
+                    <div class="car-info">
+                        <h3>Lexus RX 350</h3>
+                        <div class="price">₦42,000,000</div>
+
+                        <div class="car-details">
+                            <span>📅 2021</span>
+                            <span>⚙ Automatic</span>
+                            <span>⛽ Petrol</span>
+                        </div>
+
+                        <a href="https://wa.me/2349014498663"
+                           class="car-button"
+                           target="_blank">
+                           Ask About This Car
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- CAR 5 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=800&q=80" alt="Ford Mustang">
+                    </div>
+
+                    <div class="car-info">
+                        <h3>Ford Mustang</h3>
+                        <div class="price">₦55,000,000</div>
+
+                        <div class="car-details">
+                            <span>📅 2023</span>
+                            <span>⚙ Automatic</span>
+                            <span>⛽ Petrol</span>
+                        </div>
+
+                        <a href="https://wa.me/2349014498663"
+                           class="car-button"
+                           target="_blank">
+                           Ask About This Car
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- CAR 6 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=800&q=80" alt="Range Rover">
+                    </div>
+
+                    <div class="car-info">
+                        <h3>Range Rover Sport</h3>
+                        <div class="price">₦75,000,000</div>
+
+                        <div class="car-details">
+                            <span>📅 2022</span>
+                            <span>⚙ Automatic</span>
+                            <span>⛽ Petrol</span>
+                        </div>
+
+                        <a href="https://wa.me/2349014498663"
+                           class="car-button"
+                           target="_blank">
+                           Ask About This Car
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- CAR 7 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=800&q=80" alt="Honda">
+                    </div>
+
+                    <div class="car-info">
+                        <h3>Honda Accord</h3>
+                        <div class="price">₦28,000,000</div>
+
+                        <div class="car-details">
+                            <span>📅 2020</span>
+                            <span>⚙ Automatic</span>
+                            <span>⛽ Petrol</span>
+                        </div>
+
+                        <a href="https://wa.me/2349014498663"
+                           class="car-button"
+                           target="_blank">
+                           Ask About This Car
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- CAR 8 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=800&q=80" alt="Land Cruiser">
+                    </div>
+
+                    <div class="car-info">
+                        <h3>Toyota Land Cruiser</h3>
+                        <div class="price">₦85,000,000</div>
+
+                        <div class="car-details">
+                            <span>📅 2023</span>
+                            <span>⚙ Automatic</span>
+                            <span>⛽ Petrol</span>
+                        </div>
+
+                        <a href="https://wa.me/2349014498663"
+                           class="car-button"
+                           target="_blank">
+                           Ask About This Car
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- CAR 9 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=800&q=80" alt="Luxury Car">
+                    </div>
+
+                    <div class="car-info">
+                        <h3>Luxury Executive Sedan</h3>
+                        <div class="price">₦60,000,000</div>
+
+                        <div class="car-details">
+                            <span>📅 2022</span>
+                            <span>⚙ Automatic</span>
+                            <span>⛽ Petrol</span>
+                        </div>
+
+                        <a href="https://wa.me/2349014498663"
+                           class="car-button"
+                           target="_blank">
+                           Ask About This Car
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+
+        <div class="container about-grid">
+
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1562141961-b5d1859e64f7?auto=format&fit=crop&w=1000&q=80"
+                     alt="Olly Autos">
+            </div>
+
+            <div class="about-content">
+
+                <h2>About Olly Autos</h2>
+
+                <p>
+                    Olly Autos is a professional car dealership committed
+                    to helping customers find quality vehicles at competitive prices.
+                </p>
+
+                <p>
+                    Whether you are looking for a luxury car, SUV,
+                    family vehicle or everyday car, we are here to help.
+                </p>
+
+                <ul class="about-list">
+                    <li><span>✔</span> Quality Vehicles</li>
+                    <li><span>✔</span> Affordable Prices</li>
+                    <li><span>✔</span> Trusted Customer Service</li>
+                    <li><span>✔</span> Easy WhatsApp Communication</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section>
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Why Choose Olly Autos?</h2>
+                <p>Your satisfaction and trust are important to us.</p>
+            </div>
+
+            <div class="services-grid">
+
+                <div class="service-card">
+                    <div class="service-icon">🚗</div>
+                    <h3>Quality Cars</h3>
+                    <p>Carefully selected vehicles for our customers.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💰</div>
+                    <h3>Affordable Prices</h3>
+                    <p>Great vehicles at competitive prices.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🤝</div>
+                    <h3>Trusted Service</h3>
+                    <p>Professional service you can rely on.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Easy Contact</h3>
+                    <p>Contact us easily through WhatsApp.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- GALLERY -->
+    <section class="gallery" id="gallery">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Car Gallery</h2>
+                <p>Explore more beautiful cars from Olly Autos.</p>
+            </div>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=800&q=80">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=800&q=80">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=800&q=80">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800&q=80">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=800&q=80">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+
+        <div class="container contact-grid">
+
+            <div class="contact-info">
+
+                <h2>Contact Olly Autos</h2>
+
+                <p>
+                    Looking for a car? Send us a message or contact us
+                    on WhatsApp today.
+                </p>
+
+                <div class="contact-details">
+                    <div>📱 <strong>WhatsApp:</strong> 09014498663</div>
+                    <div>📞 <strong>Phone:</strong> 09014498663</div>
+                    <div>🚗 <strong>Business:</strong> Olly Autos</div>
+                </div>
+
+                <br>
+
+                <a href="https://wa.me/2349014498663"
+                   target="_blank"
+                   class="btn btn-primary">
+                    Chat on WhatsApp
+                </a>
+
+            </div>
+
+
+            <div class="contact-form">
+
+                <h2>Send a Message</h2>
+
+                <br>
+
+                <input type="text" id="name" placeholder="Your Name">
+
+                <input type="email" placeholder="Your Email">
+
+                <input type="text" id="phone" placeholder="Your Phone Number">
+
+                <textarea
+                    id="message"
+                    placeholder="Tell us the car you want..."
+                ></textarea>
+
+                <button onclick="sendMessage()">
+                    Send via WhatsApp
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- WHATSAPP BUTTON -->
+    <a href="https://wa.me/2349014498663"
+       target="_blank"
+       class="whatsapp-button">
+        💬 Chat on WhatsApp
+    </a>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div>
+                    <h3>OLLY AUTOS</h3>
+                    <p>
+                        Your trusted car dealership for quality,
+                        luxury and affordable vehicles.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Quick Links</h3>
+
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#cars">Cars</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Contact</h3>
+                    <p>WhatsApp: 09014498663</p>
+                    <br>
+                    <p>Olly Autos</p>
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                © 2026 Olly Autos. All Rights Reserved.
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
